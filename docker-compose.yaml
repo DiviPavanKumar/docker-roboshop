@@ -45,7 +45,6 @@ services:
   mysql:
     image: pavandivi/mysql:v1
     container_name: mysql
-    restart: always
     volumes:
     - mysql:/var/lib/mysql
 
